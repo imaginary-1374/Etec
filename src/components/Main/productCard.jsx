@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { NavLink } from "react-router-dom";
 import { ProductsContext } from "../../context/productscontext";
 import getImagePath from "../../utils/helpers";
 
@@ -9,7 +10,9 @@ export default function Card({ Id }) {
     return null;
   }
   return (
-    <div
+    <NavLink
+      key={product.id}
+      to={`/shop/${product.id}`}
       className="relative min-w-[300px] min-h-[400px] bg-stone-100 p-4 rounded-3xl drop-shadow-xs  
                 group hover:scale-101 hover:saturate-115 hover:contrast-105 active:contrast-105 active:saturate-115 active:scale-101
                 transition-all duration-200 ease-in-out"
@@ -28,6 +31,6 @@ export default function Card({ Id }) {
         <p className="text-lg">{product.name}</p>
         <p className="text-lg text-stone-400 ">USD {product.price}</p>
       </div>
-    </div>
+    </NavLink>
   );
 }

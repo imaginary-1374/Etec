@@ -12,7 +12,7 @@ export default function Featured() {
                  overflow-x-scroll overflow-y-hidden [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
     >
       {featured.slice(0, 3).map((id) => (
-        <Card Id={id} />
+        <Card key={id} Id={id} />
       ))}
     </div>
   );

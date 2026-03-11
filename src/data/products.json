@@ -8,7 +8,7 @@
     "featured": false,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": [
         "/in products/displays/1.png",
         "/in products/displays/2.png"
@@ -25,7 +25,7 @@
     "featured": false,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": [
         "/in products/displays/1.png",
         "/in products/displays/2.png"
@@ -42,7 +42,7 @@
     "featured": true,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": [
         "/in products/displays/1.png",
         "/in products/displays/2.png"
@@ -59,7 +59,7 @@
     "featured": false,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": [
         "/in products/displays/1.png",
         "/in products/displays/2.png"
@@ -76,7 +76,7 @@
     "featured": false,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
@@ -90,7 +90,7 @@
     "featured": false,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
@@ -104,7 +104,7 @@
     "featured": true,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
@@ -118,7 +118,7 @@
     "featured": false,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
@@ -132,7 +132,7 @@
     "featured": true,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
@@ -146,7 +146,7 @@
     "featured": true,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
@@ -160,7 +160,7 @@
     "featured": false,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
@@ -174,7 +174,7 @@
     "featured": true,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
@@ -188,7 +188,7 @@
     "featured": false,
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": []
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
@@ -202,7 +202,7 @@
     "category": "phones",
     "images": {
       "thumbnail": "1.png",
-      "gallery": ["1.png", "2.png", "3.png", "4.png"],
+      "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": ["/in products/phones/1.png"]
     },
     "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones.",
@@ -212,14 +212,14 @@
         "colorName": "Red",
         "colorCode": "#FF0000",
         "mainImage": "1.png",
-        "images": ["1.png", "2.png", "3.png", "4.png"]
+        "images": ["2.png", "3.png", "4.png"]
       },
       {
         "folderId": "16",
         "colorName": "Black",
         "colorCode": "#000000",
         "mainImage": "1.png",
-        "images": ["1.png", "2.png", "3.png"]
+        "images": ["2.png", "3.png"]
       }
     ]
   }
