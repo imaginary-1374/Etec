@@ -3,6 +3,7 @@ import { ProductsContext } from "../../context/productscontext";
 import { useContext, useState } from "react";
 import { GoDotFill } from "react-icons/go";
 import AddToCart from "./ProductActions";
+import ProductFeatures from "./ProductFeatures";
 import getImagePath from "../../utils/helpers";
 
 export default function ProductPage() {
@@ -16,7 +17,7 @@ export default function ProductPage() {
     return <div className="p-10 text-center">Product not found.</div>;
   }
 
-  const allImages = [product.images.thumbnail, ...product.images.gallery].slice(
+  const allImages = [product.images.thumbnail, ...product.images.gallery || []].slice(
     0,
     4,
   );
@@ -42,7 +43,7 @@ export default function ProductPage() {
             <img
               key={index}
               src={getImagePath(product.folderId, img)}
-              alt={`${product.name} view ${index + 1}`}
+              alt=""
               onClick={() => setActiveImage(img)}
               className={`
                 w-20 h-20 md:w-full aspect-square object-cover rounded-lg cursor-pointer transition-all duration-300
@@ -83,9 +84,10 @@ export default function ProductPage() {
           <div className="prose prose-stone text-stone-600 leading-relaxed">
             <p>{product.description}</p>
           </div>
-        <AddToCart/>
+          <AddToCart />
         </div>
       </div>
+      <ProductFeatures/>
     </div>
   );
 }

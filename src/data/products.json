@@ -10,8 +10,8 @@
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": [
-        "/in products/displays/1.png",
-        "/in products/displays/2.png"
+        "in products/displays/1.png",
+        "in products/displays/2.png"
       ]
     },
     "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
@@ -27,8 +27,8 @@
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": [
-        "/in products/displays/1.png",
-        "/in products/displays/2.png"
+        "in products/displays/1.png",
+        "in products/displays/2.png"
       ]
     },
     "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
@@ -44,8 +44,8 @@
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": [
-        "/in products/displays/1.png",
-        "/in products/displays/2.png"
+        "in products/displays/1.png",
+        "in products/displays/2.png"
       ]
     },
     "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
@@ -61,8 +61,8 @@
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
       "lifestyle": [
-        "/in products/displays/1.png",
-        "/in products/displays/2.png"
+        "in products/displays/1.png",
+        "in products/displays/2.png"
       ]
     },
     "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
@@ -196,31 +196,43 @@
   {
     "id": 401,
     "folderId": "14",
-    "name": "iPhone 15",
+    "name": "iPhone 15 Black",
     "price": 799.99,
     "featured": false,
     "category": "phones",
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": ["/in products/phones/1.png"]
+      "lifestyle": ["in products/phones/1.png"]
     },
-    "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones.",
-    "variants": [
-      {
-        "folderId": "15",
-        "colorName": "Red",
-        "colorCode": "#FF0000",
-        "mainImage": "1.png",
-        "images": ["2.png", "3.png", "4.png"]
-      },
-      {
-        "folderId": "16",
-        "colorName": "Black",
-        "colorCode": "#000000",
-        "mainImage": "1.png",
-        "images": ["2.png", "3.png"]
-      }
-    ]
+    "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
+  },
+  {
+    "id": 402,
+    "folderId": "15",
+    "name": "iPhone 15 Red",
+    "price": 799.99,
+    "featured": false,
+    "category": "phones",
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png", "4.png"],
+      "lifestyle": ["in products/phones/1.png"]
+    },
+    "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
+  },
+  {
+    "id": 403,
+    "folderId": "16",
+    "name": "iPhone 15 White",
+    "price": 799.99,
+    "featured": false,
+    "category": "phones",
+    "images": {
+      "thumbnail": "1.png",
+      "gallery": ["2.png", "3.png"],
+      "lifestyle": ["in products/phones/1.png"]
+    },
+    "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
   }
 ]

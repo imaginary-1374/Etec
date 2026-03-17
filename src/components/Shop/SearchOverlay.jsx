@@ -1,6 +1,7 @@
 import { IoSearch } from "react-icons/io5";
 import useSearch from "../../hooks/useSearch";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 export default function Search({ isOpen, setIsOpen }) {
   const [inVal, setInVal] = useState("");
   const products = useSearch(inVal);
@@ -20,7 +21,7 @@ export default function Search({ isOpen, setIsOpen }) {
 `;
 
   const li_classname = `
-  cursor-pointer w-full 
+  cursor-pointer w-full block
   pl-16 pr-6 py-4 
   text-start text-stone-600 
   transition-colors duration-200 
@@ -30,7 +31,7 @@ export default function Search({ isOpen, setIsOpen }) {
   return (
     <div
       className={isOpen ? "visible" : "hidden"}
-      onBlur={() => setIsOpen(false)}
+      onClick={() => setIsOpen(false)}
     >
       <div className="fixed inset-0 z-[60] flex items-start justify-center bg-black/90 backdrop-blur-sm cursor-pointer md:py-18">
         <div
@@ -51,8 +52,14 @@ export default function Search({ isOpen, setIsOpen }) {
           />
           <ul className={ul_classname}>
             {products.map((i) => (
-              <li key={i.id} className={li_classname}>
-                {i.name}
+              <li key={i.id} className="w-full">
+                <Link
+                  to={`/shop/${i.id}`}
+                  className={li_classname}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {i.name}
+                </Link>
               </li>
             ))}
           </ul>
