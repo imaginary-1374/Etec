@@ -1,6 +1,8 @@
 import { PiTruckLight } from "react-icons/pi";
 import { CiCreditCard1 } from "react-icons/ci";
 import { HiArrowUturnLeft } from "react-icons/hi2";
+import { MdBrokenImage } from "react-icons/md";
+
 import { ProductsContext } from "../../context/productscontext";
 import getImagePath from "../../utils/helpers";
 import { useParams } from "react-router-dom";
@@ -27,21 +29,38 @@ export default function ProductFeatures() {
       icon: <HiArrowUturnLeft size={30} />,
     },
   ];
-  const allImages = [product.images.lifestyle].slice(0, 4);
+  const mainLifestyle = product.images.lifestyle.main;
+
+  const sec = product.images.lifestyle.secondary || [];
+
+  const secLifestyle = [...sec, null, null, null].slice(0, 3);
+
   return (
-    <div>
+    <div className="mt-12 space-y-6">
       <div className="flex flex-col md:flex-col-reverse w-full gap-6">
-        {/* img*/}
-        <img src="" alt="zzzzzzzzzzzzzz" className="w-full object-cover" />
+        {/* main img */}
+        <div
+          className={`h-80 md:h-150 w-full rounded-2xl overflow-hidden flex items-center justify-center
+            ${mainLifestyle == null ? "animate-pulse bg-gray-200" : ""}`}
+        >
+          {mainLifestyle ? (
+            <img
+              src={getImagePath(product.category, mainLifestyle, "in products")}
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          ) : (
+            <MdBrokenImage size={40} className="text-gray-600 animate-pulse" />
+          )}
+        </div>
+
         {/* features */}
-        <div className="flex flex-col md:flex-row flex-1 bg-stone-100 rounded-3xl p-6 gap-8 mt-12">
+        <div className="flex flex-col md:flex-row flex-1 bg-stone-100 rounded-3xl p-6 gap-8">
           {features.map((f) => (
             <div
               key={f.label}
               className="flex flex-col items-center justify-center text-center md:flex-row md:items-start md:text-left gap-4 flex-1"
             >
-              {/* icon*/}
-              <div className="bg-white rounded-xl p-4 w-fit mb-4 shadow-sm">
+              <div className="bg-white rounded-xl p-4 w-fit shadow-sm">
                 {f.icon}
               </div>
               <div className="space-y-2 md:pt-1">
@@ -54,15 +73,40 @@ export default function ProductFeatures() {
           ))}
         </div>
       </div>
+
+      {/* Secondary Images */}
       <div>
-        {allImages.map((img, index) => (
-          <img
-            key={index}
-            src={getImagePath(product.folderId, img)}
-            alt=""
-            className="w-20 h-auto md:w-full aspect-square object-cover rounded-lg cursor-pointer transition-all duration-300"
-          />
-        ))}
+        <div className="flex flex-col md:flex-row gap-6">
+          {secLifestyle.map((image, index) => (
+            <div key={index}>
+              <div
+                className={`md:flex-1 h-80 rounded-2xl overflow-hidden flex items-center justify-center 
+              ${!image ? "animate-pulse bg-gray-200" : "bg-gray-100"}`}
+              >
+                {image ? (
+                  <img
+                    src={getImagePath(product.category, image, "in products")}
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
+                ) : (
+                  <MdBrokenImage
+                    size={40}
+                    className="text-gray-600 animate-pulse"
+                  />
+                )}
+              </div>
+              <div className="mt-2 space-y-4 px-1">
+                <h1 className="text-2xl font-bold tracking-tighter text-neutral-900 leading-none">
+                  {product.lifestyletext.headers.at(index)}
+                </h1>
+
+                <p className="text-base text-neutral-500 font-medium tracking-tighter leading-tight">
+                  {product.lifestyletext.p.at(index)}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

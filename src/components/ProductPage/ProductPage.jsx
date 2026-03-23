@@ -4,6 +4,8 @@ import { useContext, useState } from "react";
 import { GoDotFill } from "react-icons/go";
 import AddToCart from "./ProductActions";
 import ProductFeatures from "./ProductFeatures";
+import Comments from "./Comments";
+import Related from "./related";
 import getImagePath from "../../utils/helpers";
 
 export default function ProductPage() {
@@ -17,13 +19,13 @@ export default function ProductPage() {
     return <div className="p-10 text-center">Product not found.</div>;
   }
 
-  const allImages = [product.images.thumbnail, ...product.images.gallery || []].slice(
-    0,
-    4,
-  );
+  const allImages = [
+    product.images.thumbnail,
+    ...(product.images.gallery || []),
+  ].slice(0, 4);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="max-w-7xl mx-auto px-4 py-8 ">
       <nav className="flex items-center gap-2 mb-8 text-stone-500 text-sm">
         <Link to="/" className="hover:text-stone-800 transition-colors">
           Home
@@ -87,7 +89,9 @@ export default function ProductPage() {
           <AddToCart />
         </div>
       </div>
-      <ProductFeatures/>
+      <ProductFeatures />
+      <Comments />
+      <Related />
     </div>
   );
 }

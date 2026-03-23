@@ -9,9 +9,21 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": [
-        "in products/displays/1.png",
-        "in products/displays/2.png"
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Crystal Clear Visuals",
+        "Seamless Connectivity",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience stunning clarity and vibrant colors on the Apple Display SE 3, bringing your content to life like never before.",
+        "Effortlessly connect to your Mac, iPad, or other devices with Thunderbolt and USB-C ports for enhanced productivity.",
+        "With its slim profile and edge-to-edge glass, the eDisplay adds a modern touch to any workspace while maximizing your viewing area."
       ]
     },
     "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
@@ -26,9 +38,21 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": [
-        "in products/displays/1.png",
-        "in products/displays/2.png"
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Crystal Clear Visuals",
+        "Seamless Connectivity",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience stunning clarity and vibrant colors on the Apple Display SE 3, bringing your content to life like never before.",
+        "Effortlessly connect to your Mac, iPad, or other devices with Thunderbolt and USB-C ports for enhanced productivity.",
+        "With its slim profile and edge-to-edge glass, the eDisplay adds a modern touch to any workspace while maximizing your viewing area."
       ]
     },
     "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
@@ -43,9 +67,21 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": [
-        "in products/displays/1.png",
-        "in products/displays/2.png"
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Crystal Clear Visuals",
+        "Seamless Connectivity",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience stunning clarity and vibrant colors on the Apple Display SE 3, bringing your content to life like never before.",
+        "Effortlessly connect to your Mac, iPad, or other devices with Thunderbolt and USB-C ports for enhanced productivity.",
+        "With its slim profile and edge-to-edge glass, the eDisplay adds a modern touch to any workspace while maximizing your viewing area."
       ]
     },
     "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
@@ -60,9 +96,21 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": [
-        "in products/displays/1.png",
-        "in products/displays/2.png"
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Crystal Clear Visuals",
+        "Seamless Connectivity",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience stunning clarity and vibrant colors on the Apple Display SE 3, bringing your content to life like never before.",
+        "Effortlessly connect to your Mac, iPad, or other devices with Thunderbolt and USB-C ports for enhanced productivity.",
+        "With its slim profile and edge-to-edge glass, the eDisplay adds a modern touch to any workspace while maximizing your viewing area."
       ]
     },
     "description": "Upgrade your workspace with the eDisplay XS and take your productivity to new heights."
@@ -77,7 +125,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": ["1.png"],
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Fitness Tracking",
+        "Versatile Design",
+        "Effortless Connectivity"
+      ],
+      "p": [
+        "Monitor your health and fitness goals with precision, tracking your activity, heart rate, and more.",
+        "Elevate your look with a sleek and modern design that seamlessly transitions from the gym to the boardroom.",
+        "Seamlessly stay in touch with your world, receiving notifications and calls directly on your wrist."
+      ]
     },
     "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
   },
@@ -91,7 +154,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": ["1.png"],
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Fitness Tracking",
+        "Versatile Design",
+        "Effortless Connectivity"
+      ],
+      "p": [
+        "Monitor your health and fitness goals with precision, tracking your activity, heart rate, and more.",
+        "Elevate your look with a sleek and modern design that seamlessly transitions from the gym to the boardroom.",
+        "Seamlessly stay in touch with your world, receiving notifications and calls directly on your wrist."
+      ]
     },
     "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
   },
@@ -105,7 +183,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": ["1.png"],
+        "secondary": ["2.png", "3.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Fitness Tracking",
+        "Versatile Design",
+        "Effortless Connectivity"
+      ],
+      "p": [
+        "Monitor your health and fitness goals with precision, tracking your activity, heart rate, and more.",
+        "Elevate your look with a sleek and modern design that seamlessly transitions from the gym to the boardroom.",
+        "Seamlessly stay in touch with your world, receiving notifications and calls directly on your wrist."
+      ]
     },
     "description": "Stay connected, organized, and motivated with eWatch. Enjoy seamless connectivity, comprehensive fitness tracking, stylish design, and convenient smart features—all in one sleek package."
   },
@@ -119,7 +212,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
   },
@@ -133,7 +241,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
   },
@@ -147,7 +270,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
   },
@@ -161,7 +299,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
   },
@@ -175,7 +328,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
   },
@@ -189,7 +357,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": []
+      "lifestyle": {
+        "main": null,
+        "secondary": []
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Sound Superiority, Anywhere",
+        "Power on the Move",
+        "Tailored Comfort"
+      ],
+      "p": [
+        "Experience top-tier audio quality. Whether you're into rock or classical, these buds deliver exceptional sound across all genres.",
+        "Stay charged with portable capsule, giving you 4 full charges for your headphones wherever you roam.",
+        "With 6 tips in varying sizes, our headphones ensures a perfect fit for every ear, guaranteeing comfort during extended wear."
+      ]
     },
     "description": "Whether you're on the move or powering through your workout, these headphones are designed to keep up with your active lifestyle effortlessly."
   },
@@ -203,7 +386,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": ["in products/phones/1.png"]
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Powerful Performance",
+        "Innovative Features",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience lightning-fast processing speeds and smooth multitasking, empowering you to tackle any task with ease and efficiency.",
+        "Explore a wealth of innovative features and apps designed to streamline your daily life, from augmented reality experiences to voice-activated assistants.",
+        "Make a statement with the iPhone's sleek and elegant design, crafted from premium materials for a sophisticated look and feel."
+      ]
     },
     "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
   },
@@ -217,7 +415,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png", "4.png"],
-      "lifestyle": ["in products/phones/1.png"]
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Powerful Performance",
+        "Innovative Features",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience lightning-fast processing speeds and smooth multitasking, empowering you to tackle any task with ease and efficiency.",
+        "Explore a wealth of innovative features and apps designed to streamline your daily life, from augmented reality experiences to voice-activated assistants.",
+        "Make a statement with the iPhone's sleek and elegant design, crafted from premium materials for a sophisticated look and feel."
+      ]
     },
     "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
   },
@@ -231,7 +444,22 @@
     "images": {
       "thumbnail": "1.png",
       "gallery": ["2.png", "3.png"],
-      "lifestyle": ["in products/phones/1.png"]
+      "lifestyle": {
+        "main": null,
+        "secondary": ["2.png"]
+      }
+    },
+    "lifestyletext": {
+      "headers": [
+        "Powerful Performance",
+        "Innovative Features",
+        "Sleek Design"
+      ],
+      "p": [
+        "Experience lightning-fast processing speeds and smooth multitasking, empowering you to tackle any task with ease and efficiency.",
+        "Explore a wealth of innovative features and apps designed to streamline your daily life, from augmented reality experiences to voice-activated assistants.",
+        "Make a statement with the iPhone's sleek and elegant design, crafted from premium materials for a sophisticated look and feel."
+      ]
     },
     "description": "Experience the pinnacle of technology and design with iPhone. Seamlessly integrated features, stunning display, and powerful performance redefine what's possible in the world of smartphones."
   }

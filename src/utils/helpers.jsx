@@ -1,3 +1,7 @@
-export default function getImagePath(folder, fileName) {
-  return `/All products/${folder}/${fileName}`;
+export default function getImagePath(
+  folder,
+  fileName,
+  baseFolder = "All products",
+) {
+  return `/${baseFolder}/${folder}/${fileName}`;
 }
