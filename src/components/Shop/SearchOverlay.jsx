@@ -17,7 +17,7 @@ export default function SearchOverlay({ isOpen, setIsOpen }) {
   md:mt-2
   max-h-60
   overscroll-contain
-  scrollbar-hidden
+  scrollbar-hidden 
 `;
 
   const li_classname = `
