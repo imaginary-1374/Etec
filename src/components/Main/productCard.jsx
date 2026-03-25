@@ -12,7 +12,7 @@ export default function Card({ Id }) {
   return (
     <NavLink
       key={product.id}
-      to={`/shop/${product.id}`}
+      to={`/product/${product.id}`}
       className="relative min-w-[300px] min-h-[400px] bg-stone-100 p-4 rounded-3xl drop-shadow-xs  
                 group hover:scale-101 hover:saturate-115 hover:contrast-105 active:contrast-105 active:saturate-115 active:scale-101
                 transition-all duration-200 ease-in-out"

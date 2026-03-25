@@ -5,9 +5,12 @@ import displays from "/epvE5hFHNlkcGbnrpB2IayKiHUE.png";
 import headphones from "/Q0vJfOd2ycuoBVOqcEeLEBIEHY.png";
 import phones from "/R3ixekN751tQ9urOSnopl9GZo8.png";
 import { NavLink } from "react-router-dom";
+import useActiveCategory from "../../hooks/useActiveCategory";
 
 export default function Categories() {
   const [screenSize, setScreenSize] = useState(window.innerWidth);
+  const { activeId, setActiveId } = useActiveCategory();
+  console.log(activeId);
 
   useEffect(() => {
     const handleResize = () => {
@@ -18,6 +21,7 @@ export default function Categories() {
       window.removeEventListener("resize", handleResize);
     };
   });
+
   return (
     <div className="px-4 py-20 grid gap-8">
       <h2
@@ -62,6 +66,7 @@ export default function Categories() {
               to="/shop"
               className="inline-block first-letter:uppercase text-center border border-transparent rounded-full py-3 px-8 cursor-pointer bg-white
                          hover:bg-stone-800 hover:text-white active:bg-stone-800 active:text-white transition-all duration-250"
+              onClick={() => setActiveId("all products")}
             >
               {screenSize > 768 ? "Browse all products" : "Technology products"}
             </NavLink>
@@ -85,7 +90,7 @@ export default function Categories() {
               className="first-letter:uppercase text-2xl font-medium tracking-tight
                            lg:text-4xl"
             >
-              laptops
+              displays
             </h1>
             <h3
               className="first-letter:uppercase text-sm font-normal text-stone-700
@@ -94,12 +99,15 @@ export default function Categories() {
               Experience crystal-clear clarity and vibrant visuals with our
               Displays.
             </h3>
-            <button
-              className="first-letter:uppercase border border-transparent rounded-full py-3 px-8 cursor-pointer bg-white
+
+            <NavLink
+              to="/shop"
+              className="first-letter:uppercase border border-transparent rounded-full py-3 px-8 cursor-pointer bg-white text-center
                         hover:bg-stone-800 hover:text-white active:bg-stone-800 active:text-white transition-all duration-250"
+              onClick={() => setActiveId("displays")}
             >
-              laptops
-            </button>
+              displays
+            </NavLink>
           </div>
           <div className="flex-shrink-0">
             <img
@@ -120,12 +128,14 @@ export default function Categories() {
             />
           </div>
           <div className="absolute inset-0 grid items-end justify-center pb-8">
-            <button
+            <NavLink
+              to="/shop"
               className="first-letter:uppercase border border-transparent rounded-full py-3 px-8 cursor-pointer bg-white
-                         hover:bg-stone-800 hover:text-white active:bg-stone-800 active:text-white transition-all duration-250"
+                        hover:bg-stone-800 hover:text-white active:bg-stone-800 active:text-white transition-all duration-250"
+              onClick={() => setActiveId("headphones")}
             >
               headphones
-            </button>
+            </NavLink>
           </div>
         </div>
 
@@ -139,12 +149,14 @@ export default function Categories() {
             />
           </div>
           <div className="absolute inset-0 grid items-end justify-center pb-8">
-            <button
+            <NavLink
+              to="/shop"
               className="first-letter:uppercase border border-transparent rounded-full py-3 px-8 cursor-pointer bg-white
                         hover:bg-stone-800 hover:text-white active:bg-stone-800 active:text-white transition-all duration-250"
+              onClick={() => setActiveId("phones")}
             >
               phones
-            </button>
+            </NavLink>
           </div>
         </div>
       </div>

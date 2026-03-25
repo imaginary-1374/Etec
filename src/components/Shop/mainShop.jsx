@@ -4,12 +4,12 @@ import Card from "../Main/productCard";
 import Search from "./searchoverlay";
 import { useContext, useState } from "react";
 import { ProductsContext } from "../../context/productscontext";
+import  useActiveCategory  from "../../hooks/useActiveCategory";
 
 export default function Shop() {
   const { products } = useContext(ProductsContext);
   const [isOpen, setIsOpen] = useState(false);
-
-  const [activeId, setActiveId] = useState("all products");
+  const { activeId, setActiveId } = useActiveCategory();
 
   const product = products.map((p) => p.id);
   if (!product) {
