@@ -2,7 +2,7 @@ import { IoSearch } from "react-icons/io5";
 import useSearch from "../../hooks/useSearch";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-export default function Search({ isOpen, setIsOpen }) {
+export default function SearchOverlay({ isOpen, setIsOpen }) {
   const [inVal, setInVal] = useState("");
   const products = useSearch(inVal);
   const ul_classname = `

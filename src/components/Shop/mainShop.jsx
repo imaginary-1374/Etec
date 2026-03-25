@@ -1,7 +1,7 @@
 import { IoSearchOutline } from "react-icons/io5";
 import Categories from "./categories";
 import Card from "../Main/productCard";
-import Search from "./searchoverlay";
+import SearchOverlay from "./SearchOverlay";
 import { useContext, useState } from "react";
 import { ProductsContext } from "../../context/productscontext";
 import useActiveCategory from "../../hooks/useActiveCategory";
@@ -43,7 +43,7 @@ export default function Shop() {
           ))}
       </div>
       <div tabIndex="-1" className={isOpen ? "visible" : "hidden"}>
-        <Search isOpen={isOpen} setIsOpen={setIsOpen} />
+        <SearchOverlay isOpen={isOpen} setIsOpen={setIsOpen} />
       </div>
     </div>
   );
