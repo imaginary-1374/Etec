@@ -54,7 +54,7 @@ export default function Search({ isOpen, setIsOpen }) {
             {products.map((i) => (
               <li key={i.id} className="w-full">
                 <Link
-                  to={`/shop/${i.id}`}
+                  to={`/product/${i.id}`}
                   className={li_classname}
                   onClick={() => setIsOpen(false)}
                 >

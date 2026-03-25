@@ -20,7 +20,7 @@ export default function Categories() {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  });
+  }, []);
 
   return (
     <div className="px-4 py-20 grid gap-8">

@@ -22,6 +22,6 @@ export default function useScroll(menuOpen) {
   useEffect(() => {
     window.addEventListener("scroll", handlescroll);
     return () => window.removeEventListener("scroll", handlescroll);
-  });
+  }, []);
   return isVisible;
 }

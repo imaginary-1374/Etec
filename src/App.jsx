@@ -11,7 +11,7 @@ import Header from "./components/Header/header";
 import Cart from "./components/Cart/Cart";
 import Main from "./components/Main/mainContent";
 import Shop from "./components/Shop/mainShop";
-import ProductPage from "./components/ProductPage/productPage";
+import ProductPage from "./components/ProductPage/ProductPage";
 import Footer from "./components/Footer/footer";
 
 function App() {

@@ -20,7 +20,7 @@ export default function Card({ Id }) {
       <img
         className="object-cover w-full h-full w-full"
         src={getImagePath(product.folderId, product.images.thumbnail)}
-        alt="product.name"
+        alt={product.name}
       />
       {product.featured && (
         <p className="absolute capitalize top-0 px-4 py-1 mt-6 border border-stone-600 text-stone-600 rounded-full bg-white/50">
