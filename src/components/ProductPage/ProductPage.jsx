@@ -5,7 +5,7 @@ import { GoDotFill } from "react-icons/go";
 import AddToCart from "./ProductActions";
 import ProductFeatures from "./ProductFeatures";
 import Comments from "./Comments";
-import Related from "./related";
+import Related from "./Related";
 import getImagePath from "../../utils/helpers";
 
 export default function ProductPage() {
