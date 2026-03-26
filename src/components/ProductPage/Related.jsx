@@ -17,7 +17,7 @@ export default function Related() {
       <h2 className="text-3xl font-medium tracking-tight text-gray-900 mb-8">
         Related Products
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-20">
         {relatedIds.map((p) => (
           <Card key={p.id} Id={p.id} />
         ))}

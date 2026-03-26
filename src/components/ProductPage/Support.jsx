@@ -4,7 +4,6 @@ import * as z from "zod";
 import { RiCustomerServiceLine } from "react-icons/ri";
 import { FaXmark } from "react-icons/fa6";
 import { toast, Bounce } from "react-toastify";
-
 const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Please enter a valid email address"),
@@ -34,7 +33,7 @@ export default function Support({ setOpenSection }) {
   };
 
   return (
-    <div className="md:flex items-center justify-center md:fixed inset-0 md:h-screen md:w-full bg-black/80 z-[60] p-4">
+    <div className="md:flex items-center justify-center inset-0 md:h-screen md:w-full bg-black/80 z-[60] fixed p-4">
       <form
         className="fixed inset-0 md:static h-screen w-full md:h-auto md:max-w-2xl bg-white rounded-xl p-8 shadow-2xl"
         onSubmit={handleSubmit(sub)}

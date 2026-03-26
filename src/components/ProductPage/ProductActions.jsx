@@ -1,7 +1,8 @@
 import { useState } from "react";
+import useStopScroll from "../../hooks/useStopScroll";
+
 import { MdOutlineVerifiedUser, MdKeyboardArrowDown } from "react-icons/md";
 import { LiaBoxSolid } from "react-icons/lia";
-
 
 import { RiCustomerServiceLine } from "react-icons/ri";
 import { ToastContainer } from "react-toastify";
@@ -10,7 +11,7 @@ import Support from "./Support";
 
 export default function AddToCart() {
   const [openSection, setOpenSection] = useState(null);
-
+  const _scroll = useStopScroll(openSection);
   const toggleSection = (section) =>
     setOpenSection(openSection === section ? null : section);
 

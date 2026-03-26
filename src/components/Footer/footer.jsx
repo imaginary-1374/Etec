@@ -17,7 +17,7 @@ export default function Footer() {
         </div>
         <Links />
         <div
-          className="relative flex-1 rounded-3xl overflow-hidden
+          className="relative flex-1 rounded-3xl overflow-hidden self-stretch
                      md:h-auto"
         >
           <img
