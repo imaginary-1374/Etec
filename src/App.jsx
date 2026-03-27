@@ -1,5 +1,3 @@
-// https://etec.framer.website
-
 import { Route, Routes } from "react-router-dom";
 
 import { ProductsContext } from "./context/ProductsContext";
