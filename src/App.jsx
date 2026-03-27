@@ -3,8 +3,8 @@
 import { Route, Routes } from "react-router-dom";
 
 import { ProductsContext } from "./context/productscontext";
-import ActiveCategoryProvider from "./context/CategoryContext";
-import { CartProvider } from "./context/CartContext";
+import ActiveCategoryProvider from "./context/categoryContext";
+import { CartProvider } from "./context/cartContext";
 
 import products from "./data/products.json";
 
