@@ -1,4 +1,5 @@
-name = "e-commerce"
+# wrangler.toml
+name = 'etec'
 compatibility_date = "2025-01-01"
 main = "./dist/index.html"
 
