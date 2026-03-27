@@ -5,7 +5,7 @@ export default function Links(status) {
     { name: "all products", path: "/shop" },
     { name: "about us", path: "/about" },
     { name: "faq", path: "/faq" },
-    { name: "blog", path: "/blog" },
+    { name: "cart", path: "/cart" },
     { name: "contact", path: "/contact" },
   ];
 

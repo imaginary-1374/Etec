@@ -8,7 +8,7 @@ export default function Links() {
     { name: "home", path: "/" },
     { name: "shop", path: "/shop" },
     { name: "about", path: "/about" },
-    { name: "blog", path: "/blog" },
+    { name: "cart", path: "/cart" },
   ];
   const rgtSide = [
     { name: "faq", path: "/faq" },
@@ -26,7 +26,7 @@ export default function Links() {
 
         {lftSide.map((p) => (
           <NavLink
-          key={p.name}
+            key={p.name}
             to={p.path}
             className={({ isActive }) =>
               `${linkStyles} ${isActive && "text-stone-900 font-medium"}`
@@ -45,7 +45,7 @@ export default function Links() {
 
         {rgtSide.map((p) => (
           <NavLink
-          key={p.name}
+            key={p.name}
             to={p.path}
             className={({ isActive }) =>
               `${linkStyles} ${isActive && "text-stone-900 font-medium"}`

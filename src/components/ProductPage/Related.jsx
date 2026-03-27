@@ -11,7 +11,6 @@ export default function Related() {
     .filter((p) => p.category == product.category && p.id != product.id)
     .slice(0, 3);
 
-  console.log(relatedIds);
   return (
     <div className="my-12">
       <h2 className="text-3xl font-medium tracking-tight text-gray-900 mb-8">

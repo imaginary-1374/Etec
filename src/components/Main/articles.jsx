@@ -27,7 +27,6 @@ export default function Articles() {
                      sm:w-[320px] md:w-[360px] lg:w-[400px] 
                      hover:blur-[.5px] hover:scale-[1.02] transition-all duration-250 shrink-0"
         >
-          {/* active:blur-[.5px] active:scale-[1.02] */}
           <div className="overflow-y-hidden">
             <img
               className="object-cover rounded-2xl w-full h-[360px]"
@@ -44,7 +43,6 @@ export default function Articles() {
                      sm:w-[320px] md:w-[360px] lg:w-[400px] 
                      hover:blur-[.5px] hover:scale-[1.02] transition-all duration-250 shrink-0"
         >
-          {/* active:blur-[.5px] active:scale-[1.02] */}
           <div className="overflow-y-hidden">
             <img
               className="object-cover rounded-2xl w-full h-[360px]"
@@ -61,7 +59,6 @@ export default function Articles() {
                      sm:w-[320px] md:w-[360px] lg:w-[400px] 
                      hover:blur-[.5px] hover:scale-[1.02] transition-all duration-250 shrink-0"
         >
-          {/* active:blur-[.5px] active:scale-[1.02] */}
           <div className="overflow-y-hidden">
             <img
               className="object-cover rounded-2xl w-full h-[360px]"

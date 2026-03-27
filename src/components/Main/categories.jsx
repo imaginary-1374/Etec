@@ -9,8 +9,7 @@ import useActiveCategory from "../../hooks/useActiveCategory";
 
 export default function Categories() {
   const [screenSize, setScreenSize] = useState(window.innerWidth);
-  const { activeId, setActiveId } = useActiveCategory();
-  console.log(activeId);
+  const { _activeId, setActiveId } = useActiveCategory();
 
   useEffect(() => {
     const handleResize = () => {

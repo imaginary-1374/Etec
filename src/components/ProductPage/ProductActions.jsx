@@ -1,5 +1,8 @@
-import { useState } from "react";
-import useStopScroll from "../../hooks/useStopScroll";
+import { useState, useContext } from "react";
+import { useParams } from "react-router-dom";
+import useStopScroll from "@/hooks/useStopScroll";
+import { CartContext } from "@/context/cartContext";
+import { ProductsContext } from "@/context/productscontext";
 
 import { MdOutlineVerifiedUser, MdKeyboardArrowDown } from "react-icons/md";
 import { LiaBoxSolid } from "react-icons/lia";
@@ -12,6 +15,10 @@ import Support from "./Support";
 export default function AddToCart() {
   const [openSection, setOpenSection] = useState(null);
   const _scroll = useStopScroll(openSection);
+  const { id } = useParams();
+  const { products } = useContext(ProductsContext);
+  const product = products.find((p) => p.id === Number(id));
+  const { addItem } = useContext(CartContext);
   const toggleSection = (section) =>
     setOpenSection(openSection === section ? null : section);
 
@@ -32,7 +39,6 @@ export default function AddToCart() {
       icon: <RiCustomerServiceLine size={20} />,
     },
   ];
-
   return (
     <div className="flex flex-col gap-3 mt-4 w-full">
       <div className="flex items-center justify-between text-sm">
@@ -41,7 +47,10 @@ export default function AddToCart() {
           In Stock
         </span>
       </div>
-      <button className="w-full bg-stone-900 text-white font-medium py-4 rounded-xl shadow-lg hover:bg-stone-800 active:scale-95 transition-all mt-2">
+      <button
+        onClick={() => addItem(product)}
+        className="w-full bg-stone-900 text-white font-medium py-4 rounded-xl shadow-lg hover:bg-stone-800 active:scale-95 transition-all mt-2"
+      >
         Add to Cart
       </button>
 
