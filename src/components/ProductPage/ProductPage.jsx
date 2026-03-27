@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import { ProductsContext } from "../../context/productscontext";
+import { ProductsContext } from "../../context/ProductsContext";
 import { useContext, useState } from "react";
 import { GoDotFill } from "react-icons/go";
 import AddToCart from "./ProductActions";

@@ -3,7 +3,7 @@ import { CiCreditCard1 } from "react-icons/ci";
 import { HiArrowUturnLeft } from "react-icons/hi2";
 import { MdBrokenImage } from "react-icons/md";
 
-import { ProductsContext } from "../../context/productscontext";
+import { ProductsContext } from "../../context/ProductsContext";
 import getImagePath from "../../utils/helpers";
 import { useParams } from "react-router-dom";
 import { useContext } from "react";

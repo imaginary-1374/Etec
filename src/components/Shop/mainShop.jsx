@@ -3,7 +3,7 @@ import Categories from "./categories";
 import Card from "../Main/productCard";
 import SearchOverlay from "./SearchOverlay";
 import { useContext, useState } from "react";
-import { ProductsContext } from "../../context/productscontext";
+import { ProductsContext } from "../../context/ProductsContext";
 import useActiveCategory from "../../hooks/useActiveCategory";
 
 export default function Shop() {

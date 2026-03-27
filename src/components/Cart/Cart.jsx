@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { CartContext } from "../../context/cartContext";
-import { ProductsContext } from "../../context/productscontext";
+import { CartContext } from "../../context/CartContext";
+import { ProductsContext } from "../../context/ProductsContext";
 import getImagePath from "@/utils/helpers";
 import { Trash2, Plus, Minus, ArrowLeft, ShoppingCart } from "lucide-react";
 

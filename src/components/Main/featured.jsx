@@ -1,6 +1,6 @@
 import Card from "./productCard";
 import { useContext } from "react";
-import { ProductsContext } from "../../context/productscontext";
+import { ProductsContext } from "../../context/ProductsContext";
 
 export default function Featured() {
   const { products } = useContext(ProductsContext);

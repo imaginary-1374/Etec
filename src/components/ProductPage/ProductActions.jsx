@@ -1,8 +1,8 @@
 import { useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import useStopScroll from "@/hooks/useStopScroll";
-import { CartContext } from "@/context/cartContext";
-import { ProductsContext } from "@/context/productscontext";
+import { CartContext } from "@/context/CartContext";
+import { ProductsContext } from "@/context/ProductsContext";
 
 import { MdOutlineVerifiedUser, MdKeyboardArrowDown } from "react-icons/md";
 import { LiaBoxSolid } from "react-icons/lia";

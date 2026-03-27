@@ -10,9 +10,9 @@ import {
 } from "@/components/ui/sheet";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import { ProductsContext } from "../../context/productscontext";
+import { ProductsContext } from "../../context/ProductsContext";
 import { useContext } from "react";
-import { CartContext } from "../../context/cartContext";
+import { CartContext } from "../../context/CartContext";
 import getImagePath from "@/utils/helpers";
 import { Link } from "react-router-dom";
 export function SideBar({ trigger }) {

@@ -16,8 +16,8 @@ import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 
 // Context & Utils
-import { CartContext } from "../../../context/cartContext";
-import { ProductsContext } from "../../../context/Productscontext";
+import { CartContext } from "../../../context/CartContext";
+import { ProductsContext } from "../../../context/ProductsContext";
 import { checkoutSchema } from "./checkoutSchema";
 
 // Shared Parts

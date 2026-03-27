@@ -1,5 +1,5 @@
 import Card from "../Main/productCard";
-import { ProductsContext } from "../../context/productscontext";
+import { ProductsContext } from "../../context/ProductsContext";
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
 
