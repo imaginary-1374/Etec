@@ -2,7 +2,7 @@
 
 import { Route, Routes } from "react-router-dom";
 
-import { ProductsContext } from "./context/ProductsContext";
+import { ProductsContext } from "./context/productscontext";
 import ActiveCategoryProvider from "./context/CategoryContext";
 import { CartProvider } from "./context/CartContext";
 
