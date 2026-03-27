@@ -2,14 +2,13 @@
   "name": "e-commerce",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://imaginary-1374.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npx wrangler pages deploy dist"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
