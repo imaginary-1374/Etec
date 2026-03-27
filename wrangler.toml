@@ -1,0 +1,6 @@
+name = "e-commerce"
+compatibility_date = "2025-01-01"
+main = "./dist/index.html"
+
+[site]
+bucket = "./dist"
