@@ -14,7 +14,7 @@ import Support from "./Support";
 
 export default function AddToCart() {
   const [openSection, setOpenSection] = useState(null);
-  const _scroll = useStopScroll(openSection);
+  const _scroll = useStopScroll(openSection === "support" ? openSection : null);
   const { id } = useParams();
   const { products } = useContext(ProductsContext);
   const product = products.find((p) => p.id === Number(id));
@@ -39,6 +39,18 @@ export default function AddToCart() {
       icon: <RiCustomerServiceLine size={20} />,
     },
   ];
+  const [isAdded, setIsAdded] = useState(false);
+  const handleAdded = () => {
+    setIsAdded(true);
+
+    try {
+      addItem(product);
+    } finally {
+      setTimeout(() => {
+        setIsAdded(false);
+      }, 800);
+    }
+  };
   return (
     <div className="flex flex-col gap-3 mt-4 w-full">
       <div className="flex items-center justify-between text-sm">
@@ -48,10 +60,14 @@ export default function AddToCart() {
         </span>
       </div>
       <button
-        onClick={() => addItem(product)}
-        className="w-full bg-stone-900 text-white font-medium py-4 rounded-xl shadow-lg hover:bg-stone-800 active:scale-95 transition-all mt-2"
+        onClick={() => {
+          handleAdded();
+        }}
+        disabled={isAdded}
+        className={`w-full font-medium py-4 rounded-xl shadow-lg  mt-2
+          ${isAdded ? "bg-stone-200 text-stone-800 " : "text-white hover:bg-stone-800 active:scale-95 transition-all bg-stone-900"}`}
       >
-        Add to Cart
+        {isAdded ? "processing..." : "Add to Cart"}
       </button>
 
       <p className="text-stone-400 text-center text-xs px-4">
